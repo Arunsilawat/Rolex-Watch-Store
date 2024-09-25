@@ -32,11 +32,11 @@
           <div class="row">
             <div class="col-sm-4">
               <nav class="nav flex-column">
-                <a style="color: aliceblue;" class="nav-link" href="#">Rolex watches</a>
-                <a style="color: aliceblue;" class="nav-link" href="#">New watches 2024</a>
-                <a style="color: aliceblue;" class="nav-link" href="#">Rolex and sports</a>
-                <a style="color: aliceblue;" class="nav-link" href="#">About Rolex</a>
-                <a style="color: aliceblue;" class="nav-link" href="#">Care and servicing</a>
+                <a style="color: aliceblue;" class="nav-link" href="{% url 'watch' %}">Rolex watches</a>
+                <a style="color: aliceblue;" class="nav-link" href="{% url 'new' %}">New watches 2024</a>
+                <a style="color: aliceblue;" class="nav-link" href="{% url 'sports' %}">Rolex and sports</a>
+                <a style="color: aliceblue;" class="nav-link" href="{% url 'about' %}">About Rolex</a>
+                <a style="color: aliceblue;" class="nav-link" href="{% url 'service' %}">Care and servicing</a>
               </nav>
             </div>
             <div class="col-sm-8">
@@ -87,7 +87,8 @@
       </div>
     </nav>
   </header>
-<br><br><br><br>
+  {% block content %}
+  {% endblock %}
 <!-- ------------------------------------------- Navbar--------------------------------------------------- -->
 <!-- -------------------------------------------- footer ---------------------------------------------------------- -->
   <footer>
