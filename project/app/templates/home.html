@@ -1,11 +1,226 @@
-<!DOCTYPE html>
+{% load static %}
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    #icn {
+      color: white;
+      font-size: 100%;
+      padding: 20px;
+    }
+
+    #logo {
+      margin-left: 70px;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Welcom To Home</h1>
+  <header>
+    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+      <div class=" p-4" style="background-color: rgb(37, 82, 54);">
+        <h5 class="text-body-emphasis h4">
+          <div class="row">
+            <div class="col-sm-4">
+              <nav class="nav flex-column">
+                <a style="color: aliceblue;" class="nav-link" href="#">Rolex watches</a>
+                <a style="color: aliceblue;" class="nav-link" href="#">New watches 2024</a>
+                <a style="color: aliceblue;" class="nav-link" href="#">Rolex and sports</a>
+                <a style="color: aliceblue;" class="nav-link" href="#">About Rolex</a>
+                <a style="color: aliceblue;" class="nav-link" href="#">Care and servicing</a>
+              </nav>
+            </div>
+            <div class="col-sm-8">
+              <div class="container-fluid bg-3 text-center">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <p>Submariner</p>
+                    <img
+                      src="https://c4.wallpaperflare.com/wallpaper/1019/185/199/clock-rolex-time-watch-wallpaper-preview.jpg"
+                      class="img-responsive" style="width:100%" alt="Image">
+                  </div>
+                  <div class="col-sm-3">
+                    <p>Datejust</p>
+                    <img src="https://cdn.pixabay.com/photo/2017/03/24/19/19/rolex-2171961_640.jpg"
+                      class="img-responsive" style="width:100%" alt="Image">
+                  </div>
+                  <div class="col-sm-3">
+                    <p>Submariner</p>
+                    <img src=" https://i.pinimg.com/736x/95/52/4e/95524e42d93d75c1860146ea2a0f0f26.jpg"
+                      class="img-responsive" style="width:100%" alt="Image">
+                  </div>
+                  <div class="col-sm-3">
+                    <p>Datejust</p>
+                    <img
+                      src=" https://hodinkee.imgix.net/uploads/images/caf162dd-5dfe-4c10-9236-65a8e58e6328/rolex_cpo_banner_submariner-1995_09_outils_sssceau_rvb_30pc.png?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12"
+                      class="img-responsive" style="width:100%" alt="Image">
+                  </div>
+                </div>
+              </div><br><br>
+            </div>
+          </div>
+        </h5>
+      </div>
+    </div>
+    <nav class="navbar navbar-dark " style="background-color: rgb(37, 82, 54);">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <img src="https://i.pinimg.com/474x/9a/f7/f4/9af7f4025e5e5061c97817c03e182f4e.jpg" alt="" width="7%" id="logo">
+        <div>
+          <i class="fa-solid fa-magnifying-glass" id="icn"></i>
+          <i class="fa-solid fa-location-dot" id="icn"></i>
+          <i class="fa-regular fa-heart" id="icn"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+<br><br><br><br>
+<!-- ------------------------------------------- Navbar--------------------------------------------------- -->
+<!-- -------------------------------------------- footer ---------------------------------------------------------- -->
+  <footer>
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div >
+      <!-- Footer -->
+      <footer class="text-center text-lg-start text-dark" style="background-color: #ECEFF1">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-between p-4 text-white" style="background-color: rgb(37, 82, 54);">
+          <!-- Left -->
+          <div class="me-5">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold">Company name</h6>
+                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px" />
+                <p>
+                  Here you can use rows and columns to organize your footer
+                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit.
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Products</h6>
+                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px" />
+                <p>
+                  <a href="#!" class="text-dark">MDBootstrap</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-dark">MDWordPress</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-dark">BrandFlow</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-dark">Bootstrap Angular</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Useful links</h6>
+                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px" />
+                <p>
+                  <a href="#!" class="text-dark">Your Account</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-dark">Become an Affiliate</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-dark">Shipping Rates</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-dark">Help</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Contact</h6>
+                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px" />
+                <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2020 Copyright:
+          <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </div>
+    <!-- End of .container -->
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
