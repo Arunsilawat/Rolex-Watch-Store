@@ -1,8 +1,29 @@
 {% extends 'home.html'%}
 {% block content %}
- <video width="100%" controls autoplay muted >
-  <source src="https://videos.pexels.com/video-files/17186322/17186322-uhd_2560_1440_30fps.mp4" type="video/mp4">
-  {% comment %} <source src="movie.ogg" type="video/ogg"> {% endcomment %}
-  Your browser does not support the video tag.
-</video>
+
+<style>
+ #gmt{
+  font-size: 100px;
+  font-weight: bold;
+ }
+ #oy{
+  font-size: 20px;
+  font-weight: bold;
+ }
+</style>
+
+<div class="carousel-item"></div>
+  <!-- <img src="la.jpg" alt="Los Angeles"> -->
+  <div >
+    <video width="100%" controls autoplay muted  >
+      <source src="https://www.shutterstock.com/shutterstock/videos/1087793299/preview/stock-footage-bangkok-thailand-feb-close-up-rolex-gmt-master-ii-batman-mm-with-blue-black-bezel.webm" type="video/mp4"> 
+    </video>
+  </div>
+ <div id="tex">
+  <div class="carousel-caption">
+    <h3 id="oy">OYSTAR PERPETUSL</h3>
+    <p id="gmt">GMT - MASTER II</p>
+  </div>
+</div>
+</div>
 {% endblock  %}
